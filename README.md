@@ -1,10 +1,12 @@
-# Next.js Modern Blog Platform 🚀
+# Next.js Simple blog 🚀
 
 A high-performance, type-safe blog platform built with modern web technologies. Features article management, categorization, and a beautiful responsive UI.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0-blue)
 ![Next.js](https://img.shields.io/badge/Next.js-15.0.0-black)
 ![React](https://img.shields.io/badge/React-19.0.0-61DAFB)
+
+![Homepage Screenshot](public/screenshots/homepage.png)
 
 ## ✨ Features
 
