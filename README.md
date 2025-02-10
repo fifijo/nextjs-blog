@@ -58,7 +58,6 @@ For more details about testing, check out [TESTING.md](TESTING.md).
 src/
 ├── app/              # Next.js app directory and pages
 ├── components/       # Reusable React components
-├── hooks/           # Custom React hooks
 ├── lib/             # Utilities, services, and configuration
 │   ├── api/         # API integration
 │   ├── config/      # Application configuration
@@ -71,7 +70,6 @@ src/
 ## 🎯 Key Features
 
 - **Article Management**
-  - Create, read, update, and delete blog articles
   - Categorize articles for better organization
   - Sort and filter capabilities
 
@@ -84,12 +82,6 @@ src/
   - Type-safe development with TypeScript
   - Comprehensive testing suite
   - Modern tooling and best practices
-
-## 🚀 Deployment
-
-The application is optimized for deployment on [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), the platform from the creators of Next.js.
-
-For other deployment options, refer to the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
 
 ## 📚 Learn More
 
