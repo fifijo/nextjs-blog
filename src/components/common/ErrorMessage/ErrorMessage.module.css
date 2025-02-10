@@ -1,0 +1,90 @@
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  padding: 32px;
+  text-align: center;
+  background-color: var(--background-color, #ffffff);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 32px auto;
+  max-width: 600px;
+}
+
+.errorTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--error-color, #dc2626);
+  margin-bottom: 16px;
+}
+
+.errorMessage {
+  font-size: 16px;
+  color: var(--text-color, #4b5563);
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+
+.errorActions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.primaryButton,
+.secondaryButton {
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.primaryButton {
+  background-color: var(--primary-color, #2563eb);
+  color: white;
+  border: none;
+}
+
+.primaryButton:hover {
+  background-color: var(--primary-hover-color, #1d4ed8);
+}
+
+.secondaryButton {
+  background-color: transparent;
+  border: 2px solid var(--primary-color, #2563eb);
+  color: var(--primary-color, #2563eb);
+}
+
+.secondaryButton:hover {
+  background-color: var(--primary-color, #2563eb);
+  color: white;
+}
+
+@media (max-width: 640px) {
+  .errorContainer {
+    margin: 16px;
+    padding: 24px;
+  }
+
+  .errorTitle {
+    font-size: 20px;
+  }
+
+  .errorMessage {
+    font-size: 14px;
+  }
+
+  .errorActions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .primaryButton,
+  .secondaryButton {
+    width: 100%;
+  }
+}

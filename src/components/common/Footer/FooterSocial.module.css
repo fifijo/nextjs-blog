@@ -1,0 +1,17 @@
+.social {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.social a {
+  color: var(--foreground-muted);
+  transition: color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social a:hover {
+  color: var(--foreground);
+}

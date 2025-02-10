@@ -1,8 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Modern Blog Platform 🚀
 
-## Getting Started
+A high-performance, type-safe blog platform built with modern web technologies. Features article management, categorization, and a beautiful responsive UI.
 
-First, run the development server:
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0-blue)
+![Next.js](https://img.shields.io/badge/Next.js-15.0.0-black)
+![React](https://img.shields.io/badge/React-19.0.0-61DAFB)
+
+## ✨ Features
+
+- **Modern Tech Stack**: Built with Next.js 15, React 19, and TypeScript for robust type safety
+- **Beautiful UI Components**: Clean and responsive design with modern React patterns
+- **Type-Safe API Layer**: Using DTOs for reliable data transfer
+- **Responsive Design**: Perfect viewing experience across all devices
+- **Testing Suite**: Comprehensive unit and E2E testing with Jest and Playwright
+
+## 🚀 Quick Start
+
+1. Clone the repository
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +41,62 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) to view the application
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧪 Testing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project includes both unit and end-to-end tests:
 
-## Learn More
+- **Unit Tests**: Run `npm test` to execute Jest unit tests
+- **E2E Tests**: Run `npm run test:e2e` to execute Playwright end-to-end tests
 
-To learn more about Next.js, take a look at the following resources:
+For more details about testing, check out [TESTING.md](TESTING.md).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+├── app/              # Next.js app directory and pages
+├── components/       # Reusable React components
+├── hooks/           # Custom React hooks
+├── lib/             # Utilities, services, and configuration
+│   ├── api/         # API integration
+│   ├── config/      # Application configuration
+│   ├── services/    # Business logic services
+│   ├── types/       # TypeScript types and DTOs
+│   └── helpers/     # Utility functions
+└── tests/           # Test configuration and helpers
+```
 
-## Deploy on Vercel
+## 🎯 Key Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Article Management**
+  - Create, read, update, and delete blog articles
+  - Categorize articles for better organization
+  - Sort and filter capabilities
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **User Experience**
+  - Fast page loads with Next.js optimizations
+  - Responsive design for all screen sizes
+  - Beautiful typography with optimized fonts
+
+- **Developer Experience**
+  - Type-safe development with TypeScript
+  - Comprehensive testing suite
+  - Modern tooling and best practices
+
+## 🚀 Deployment
+
+The application is optimized for deployment on [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), the platform from the creators of Next.js.
+
+For other deployment options, refer to the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
+
+## 📚 Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs) - Next.js features and API
+- [React Documentation](https://react.dev) - Learn React
+- [TypeScript](https://www.typescriptlang.org) - TypeScript documentation
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -1,0 +1,20 @@
+.header {
+  padding: 16px;
+  max-width: var(--max-width);
+  margin: 40px auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+  .slogan {
+    display: block;
+  }
+
+  .header {
+    padding: 20px 0;
+  }
+}

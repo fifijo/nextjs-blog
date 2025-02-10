@@ -1,0 +1,34 @@
+ .footer {
+  border-top: 1px solid var(--border-strong);
+  padding: 48px var(--side-padding);
+  background: var(--background);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+}
+
+.logo {
+  width: 120px;
+}
+
+.copyright {
+  color: var(--foreground-light);
+  font-size: 14px;
+}
